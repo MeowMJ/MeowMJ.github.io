@@ -11,7 +11,7 @@ redirect_from:
        
 　　　　　／＞　　フ
      
-　　　　　| 　_　 _ l
+　　　　　\ 　_　 _ l
 
 　 　　　／` ミ＿xノ
 

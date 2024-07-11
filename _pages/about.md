@@ -9,16 +9,17 @@ redirect_from:
 
 
        
-　　　／＞　　フ   
-　　　\ 　_　 _ l
-　 　／` ミ＿xノ
+　／＞　　フ   
+　\ 　_　 _ l
+ 
+  ／` ミ＿xノ
 
 
-Hi, I am Miaomiao Jiang, a master's candidate in Cyber Science at Shandong University, working with Prof Lei Ju. 
+I'm a first-year master student in Cyber Science at Shandong University, working with Prof Lei Ju. 
 
 Email: meowmiaoj@gmail.com
 
-CV
+CV: [Miaomiao's CV](../assets)
 
 Experience
 ------

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Miaomiao"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,15 +9,23 @@ redirect_from:
 
 
        
-　　　　　／＞　　フ
-     
-　　　　　\ 　_　 _ l
-
-　 　　　／` ミ＿xノ
+　　　／＞　　フ   
+　　　\ 　_　 _ l
+　 　／` ミ＿xノ
 
 
-working on it
+Hi, I am Miaomiao Jiang, a master's candidate in Cyber Science at Shandong University, working with Prof Lei Ju. 
 
-For more info
+Email: meowmiaoj@gmail.com
+
+CV
+
+Experience
+------
+
+Education
+------
+
+Publication
 ------
 

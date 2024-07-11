@@ -15,11 +15,11 @@ redirect_from:
   ／` ミ＿xノ
 
 
-I'm a first-year master student in Cyber Science at Shandong University, working with Prof Lei Ju. 
+I'm a first-year master's student in Cyber Science at Shandong University, working with Prof Lei Ju. 
 
 Email: meowmiaoj@gmail.com
 
-CV: [Miaomiao's CV](../assets)
+CV: Miaomiao's CV
 
 Experience
 ------

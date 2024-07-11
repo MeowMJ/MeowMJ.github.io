@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Miaomiao Jiang / Home"
+title                    : "Miaomiao Jiang's Homepage"
 title_separator          : "-"
 name                     : &name "Miaomiao Jiang"
 description              : &description "personal description"

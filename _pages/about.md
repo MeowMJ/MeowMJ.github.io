@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Miaomiao Jiang"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,14 +8,9 @@ redirect_from:
 ---
 
 
-       
-　／＞　　フ   
-　\ 　_　 _ l
- 
-  ／` ミ＿xノ
 
 
-I'm a first-year master's student in Cyber Science at Shandong University, working with Prof Lei Ju. 
+Miaomiao Jiang is a first-year master's student in Cyber Science at Shandong University, working with Prof Lei Ju. 
 
 Email: meowmiaoj@gmail.com
 

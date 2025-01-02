@@ -25,3 +25,7 @@ Experience
 Publication
 ------
 * **[DAC]** [FHE-CGRA: Enable Efficient Acceleration of Fully Homomorphic Encryption on CGRAs](https://dl.acm.org/doi/10.1145/3649329.3656536) <u>Jiang, Miaomiao</u>, Yilan Zhu, Honghui You, Cheng Tan, Zhaoying Li, Jiming Xu, and Lei Ju. "FHE-CGRA: Enable efficient acceleration of fully homomorphic encryption on CGRAs." In Proceedings of the 61st ACM/IEEE Design Automation Conference, pp. 1-6. 2024.
+
+Pet
+------
+<img src="images/HAMSTER1" alt="hamster" style="max-width: 100%; height: auto;">

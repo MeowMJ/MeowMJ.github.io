@@ -28,4 +28,4 @@ Publication
 
 Pet
 ------
-<img src="images/HAMSTER1" alt="hamster" style="max-width: 100%; height: auto;">
+<img src="images/HAMSTER1.png" alt="hamster" style="max-width: 100%; height: auto;">

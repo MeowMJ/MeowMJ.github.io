@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-Miaomiao Jiang is a first-year master's student in Cyber Science at Shandong University, working with Prof Lei Ju. 
+Miaomiao Jiang (蒋淼淼 in Chinese) is a first-year master's student in Cyber Science at Shandong University, working with Prof Lei Ju. 
 
 Email: meowmiaoj@gmail.com
 
@@ -26,6 +26,3 @@ Publication
 ------
 * **[DAC]** [FHE-CGRA: Enable Efficient Acceleration of Fully Homomorphic Encryption on CGRAs](https://dl.acm.org/doi/10.1145/3649329.3656536) <u>Jiang, Miaomiao</u>, Yilan Zhu, Honghui You, Cheng Tan, Zhaoying Li, Jiming Xu, and Lei Ju. "FHE-CGRA: Enable efficient acceleration of fully homomorphic encryption on CGRAs." In Proceedings of the 61st ACM/IEEE Design Automation Conference, pp. 1-6. 2024.
 
-Pet
-------
-<img src="images/HAMSTER1.png" alt="hamster" style="max-width: 100%; height: auto;">

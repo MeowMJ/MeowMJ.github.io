@@ -2,7 +2,10 @@
 main:
   - title: "Pet"
     url: /pet/
-  
+    
+ - title: "Booklist"
+  url: /booklist/
+    
   # - title: "Publications"
   #   url: /publications/
 

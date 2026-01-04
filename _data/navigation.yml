@@ -1,10 +1,7 @@
 # main links links
 main:
-  - title: "Pet"
-    url: /pet/
-    
- - title: "Booklist"
-  url: /booklist/
+  - title: "Misc 杂项"
+    url: /misc/
     
   # - title: "Publications"
   #   url: /publications/

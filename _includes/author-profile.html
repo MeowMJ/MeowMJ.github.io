@@ -10,7 +10,14 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      {% assign default_avatar = author.avatar | prepend: "/images/" | prepend: base_path %}
+      {% assign hover_avatar = author.hover_avatar | default: author.avatar | replace: '.png', '_hover.png' | prepend: "/images/" | prepend: base_path %}
+    
+      <img src="{{ default_avatar }}" 
+           alt="{{ author.name }}"
+           class="author__avatar"
+           onmouseover="this.src='{{ hover_avatar }}'"
+           onmouseout="this.src='{{ default_avatar }}'">
     {% endif %}
   </div>
 

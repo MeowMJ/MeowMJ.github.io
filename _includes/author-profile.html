@@ -11,7 +11,7 @@
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
       {% assign default_avatar = author.avatar | prepend: "/images/" | prepend: base_path %}
-      {% assign hover_avatar = author.hover_avatar | default: author.avatar | replace: '.png', '_hover.png' | prepend: "/images/" | prepend: base_path %}
+      {% assign hover_avatar = author.hover_avatar | default: author.avatar | prepend: "/images/" | prepend: base_path %}
     
       <img src="{{ default_avatar }}" 
            alt="{{ author.name }}"

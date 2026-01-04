@@ -22,6 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "ME.png"
+  hover_avatar     : "ME_hover.png"
   name             : "Miaomiao Jiang"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"

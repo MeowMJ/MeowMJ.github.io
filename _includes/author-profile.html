@@ -161,8 +161,18 @@
       <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}
       {% if author.wechat %}
-      <li><a href="{{ author.wechat }}"><i class="fab fa-weixin ai-fw icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
-      {% endif %}
+        {% assign wp = author.wechat_public %}
+          <li>
+            <a href="javascript:void(0)" 
+             class="wechat-trigger"
+             data-name="{{ wp.username }}"
+             data-qr="/images/{{ wp.qr_code }}"
+            
+            <i class="fab fa-weixin ai-fw icon-pad-right" aria-hidden="true"></i>
+            WeChat
+            </a>
+          </li>
+    {% endif %}
     </ul>
   </div>
 </div>

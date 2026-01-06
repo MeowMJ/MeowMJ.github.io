@@ -73,7 +73,9 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # URL
-  wechat           : 水包与大家
+  wechat:
+    username: "水包与大家"
+    qr_code: "WeChatQR.png"
 
 
 # Site Settings
@@ -128,9 +130,6 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-wechat:
-  username               : 水包与大家
-  qr_code                : "WeChatQR.png"
 og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

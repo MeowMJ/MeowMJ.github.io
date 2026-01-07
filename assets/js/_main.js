@@ -97,3 +97,48 @@ $(document).ready(function(){
   });
 
 });
+
+/**
+ * WeChat PopUp
+ * @param {string} username
+ * @param {string} qrCodeUrl
+ */
+function showWeChatPopup(username, qrCodeUrl) {
+  // Check if popup already exists (avoid duplicate creation)
+  if (document.getElementById('wechatModal')) {
+    console.log('Popup already exists, skipping creation');
+    return;
+  }
+   // 1. Get modal element
+   const modal = document.getElementById('wechatModal');
+   
+   // 2. Get content elements
+   const usernameEl = document.getElementById('wechatUsername');
+   const qrCodeImg = document.getElementById('qrCodeImg');
+   
+   // 3. Set content
+   usernameEl.textContent = username;        // Set text content
+   qrCodeImg.src = qrCodeUrl;                // Set image URL
+   qrCodeImg.alt = username + ' QR Code';    // Set image description
+   
+   // 4. Show modal (add 'show' class)
+   modal.classList.add('show');
+   
+   // 5. Disable page scrolling (UX optimization)
+   document.body.style.overflow = 'hidden';
+}
+
+ /**
+  * Close WeChat modal
+  */
+ function closeWeChatModal() {
+   // 1. Get modal element
+   const modal = document.getElementById('wechatModal');
+   
+   // 2. Hide modal (remove 'show' class)
+   modal.classList.remove('show');
+   
+   // 3. Restore page scrolling
+   document.body.style.overflow = 'auto';
+ }
+}

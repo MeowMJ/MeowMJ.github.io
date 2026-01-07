@@ -10,9 +10,15 @@ redirect_from:
 
 
 
-Miaomiao Jiang (蒋淼淼 in Chinese) is a first-year master's student in Cyber Science at Shandong University, working with Prof Lei Ju. 
+**Name**: Miaomiao Jiang (蒋淼淼 in Chinese) 
 
-Email: meowmiaoj@gmail.com
+**Research Interest**: Software/Hardware Co-design, AI compiler, hardware acceleration, CGRA.
+
+**Current Position**: Master at Shandong University
+
+**Last Position**: Bachlor at Shandong University
+
+**How to reach me**: meowmiaoj@gmail.com
 
 <div style="display:none">CV: Miaomiao's CV</div>
 

@@ -1,6 +1,6 @@
-/* ==========================================================================
-   微信弹窗样式
-   ========================================================================== */
+/* 
+* WeChat PopUp
+*/
 
 // 弹窗遮罩层
 .wechat-modal {
@@ -15,114 +15,68 @@
   align-items: center;
   z-index: 1000;
   opacity: 0;
-  animation: fadeIn 0.3s ease forwards;
+  visibility: hidden;
 }
 
-// 淡入动画
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
+ .wechat-modal.show {
+   opacity: 1;
+   visibility: visible;
+ }
 
-// 淡出动画
-@keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
+  .modal-content {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  }
 
-// 关闭时的动画
-.wechat-modal.closing {
-  animation: fadeOut 0.3s ease forwards;
-}
+  /* ==================== 关闭按钮 ==================== */
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #999;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    transition: color 0.2s, transform 0.2s;
+    padding: 0;
+  }
 
-// 弹窗内容区
-.modal-content {
-  background: white;
-  padding: 40px 30px;
-  border-radius: 12px;
-  max-width: 400px;
-  width: 90%;
-  text-align: center;
-  position: relative;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  transform: scale(0.8);
-  animation: popIn 0.3s ease forwards;
-}
 
-// 弹出动画
-@keyframes popIn {
-  from { transform: scale(0.8); }
-  to { transform: scale(1); }
-}
-
-// 关闭按钮
-.close-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: none;
-  border: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: #999;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  transition: all 0.2s;
-  padding: 0;
-
-  &:hover {  // SCSS 嵌套语法：编译后变成 .close-btn:hover
+  /* ==================== 二维码和文字 ==================== */
+  .modal-content h3 {
     color: #333;
-    transform: rotate(90deg);
+    font-size: 20px;
+    margin-bottom: 20px;
   }
-}
 
-// 弹窗标题
-.modal-content h3 {
-  color: #333;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-// 二维码图片
-.modal-content img {
-  width: 220px;
-  height: 220px;
-  margin: 20px auto;
-  display: block;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-}
-
-// 文字段落
-.modal-content p {
-  color: #666;
-  font-size: 14px;
-  margin: 10px 0;
-}
-
-// 公众号名称
-.modal-content .username {
-  color: #07c160;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-// 微信按钮样式（如果你的项目里还没有）
-.wechat-trigger {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 20px;
-  background: #07c160;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-  border: none;
-  font-size: 16px;
-
-  &:hover {
-    background: #06ad56;
+  .modal-content img {
+    width: 220px;
+    height: 220px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
   }
-}
+
+  .modal-content p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .modal-content .username {
+    color: #07c160;
+    font-weight: bold;
+    font-size: 16px;
+  }
+

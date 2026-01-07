@@ -160,18 +160,19 @@
       {% if author.zhihu %}
       <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}
-      {% if wechat.username %}
-        <li>
-          <a href="javascript:void(0)" 
-           class="wechat-trigger"
-           data-name="{{ wechat.username }}"
-           data-qr="/images/{{ wechat.qr_code }}"
-           onclick="showWeChatPopup('{{ wechat.username }}', '/images/{{ wechat.qr_code }}')">
-            
-          <i class="fab fa-weixin ai-fw icon-pad-right" aria-hidden="true"></i>
-          WeChat
-          </a>
-        </li>
+      {% if site.wechat and site.wechat.username %}
+        {% assign wechat = site.wechat %}
+          <li>
+            <a href="javascript:void(0)" 
+             class="wechat-trigger"
+             data-name="{{ wechat.username }}"
+             data-qr="/images/{{ wechat.qr_code }}"
+             onclick="showWeChatPopup('{{ wechat.username }}', '/images/{{ wechat.qr_code }}')">
+              
+            <i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>
+            WeChat
+            </a>
+          </li>
     {% endif %}
     </ul>
   </div>

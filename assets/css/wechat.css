@@ -1,5 +1,5 @@
 /* ==========================================================================
-   微信弹窗样式 - 纯 CSS 版本
+   微信弹窗样式 - 极简版
    ========================================================================== */
 
 /* 弹窗遮罩层 */
@@ -14,57 +14,18 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  opacity: 0;
-  animation: fadeIn 0.3s ease forwards;
-}
-
-/* 淡入动画 */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* 淡出动画 */
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-/* 关闭时的动画类 */
-.wechat-modal.closing {
-  animation: fadeOut 0.3s ease forwards;
 }
 
 /* 弹窗内容区域 */
 .modal-content {
   background: white;
   padding: 40px 30px;
-  border-radius: 12px;
+  border-radius: 8px;
   max-width: 400px;
   width: 90%;
   text-align: center;
   position: relative;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  transform: scale(0.8);
-  animation: popIn 0.3s ease forwards;
-}
-
-/* 弹出动画 */
-@keyframes popIn {
-  from {
-    transform: scale(0.8);
-  }
-  to {
-    transform: scale(1);
-  }
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* 关闭按钮 */
@@ -77,23 +38,17 @@
   font-size: 28px;
   cursor: pointer;
   color: #999;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  transition: color 0.2s, transform 0.2s;
   padding: 0;
+  line-height: 1;
 }
 
 .close-btn:hover {
   color: #333;
-  transform: rotate(90deg);
 }
 
 /* 弹窗标题 */
 .modal-content h3 {
-  color: #333;
-  font-size: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 /* 二维码图片 */
@@ -102,20 +57,27 @@
   height: 220px;
   margin: 20px auto;
   display: block;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
 }
 
 /* 文字段落 */
 .modal-content p {
-  color: #666;
-  font-size: 14px;
   margin: 10px 0;
 }
 
-/* 公众号名称（加粗显示） */
+/* 公众号名称 */
 .modal-content .username {
-  color: #07c160;
   font-weight: bold;
-  font-size: 16px;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+    padding: 30px 20px;
+  }
+  
+  .modal-content img {
+    width: 180px;
+    height: 180px;
+  }
 }

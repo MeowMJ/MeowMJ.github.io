@@ -104,11 +104,6 @@ $(document).ready(function(){
  * @param {string} qrCodeUrl
  */
 function showWeChatPopup(username, qrCodeUrl) {
-  // Check if popup already exists (avoid duplicate creation)
-  if (document.getElementById('wechatModal')) {
-    console.log('Popup already exists, skipping creation');
-    return;
-  }
    // 1. Get modal element
    const modal = document.getElementById('wechatModal');
    

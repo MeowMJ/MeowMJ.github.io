@@ -136,4 +136,3 @@ function showWeChatPopup(username, qrCodeUrl) {
    // 3. Restore page scrolling
    document.body.style.overflow = 'auto';
  }
-}
